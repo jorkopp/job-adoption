@@ -1,0 +1,22 @@
+[
+  {
+    "shelter": "Rancho Coastal Humane Society",
+    "name": "Phish Food",
+    "breed": "Maltese Mix",
+    "sex": "Female",
+    "age": "1 year",
+    "weight": "19",
+    "image": "https://rchumanesociety.org/wp-content/uploads/2025/10/HS_PhishFood_01.jpg",
+    "url": "https://rchumanesociety.org/dogs-for-adoption/"
+  },
+  {
+    "shelter": "Rancho Coastal Humane Society",
+    "name": "Bundlet",
+    "breed": "Terrier mix",
+    "sex": "Female",
+    "age": "10 months",
+    "weight": "31",
+    "image": "https://rchumanesociety.org/wp-content/uploads/2015/12/HS_Bundlet_01.jpg",
+    "url": "https://rchumanesociety.org/dogs-for-adoption/"
+  }
+]
