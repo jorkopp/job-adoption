@@ -1,4 +1,4 @@
-from messaging.secrets import Secrets
+from src.messaging.secrets import Secrets
 from twilio.rest import Client
 import time
 

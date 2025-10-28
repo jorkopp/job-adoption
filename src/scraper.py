@@ -7,15 +7,14 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-from config import Config
-from animal_shelter import AnimalShelter
+from src.config import Config
+from src.animal_shelter import AnimalShelter
 
 class Scraper:
     USER_AGENT = "Mozilla/5.0 (compatible; DogAlertBot/1.0; +https://github.com/sfierro/dog-adoption)"
     
     @staticmethod
     def scrape_dogs(animal_shelter):
-        print(f"Scraping dogs from {animal_shelter.name()}...")
         r = Scraper._http_get(animal_shelter.url())
         print(f"HTTP GET response: {r}")
 

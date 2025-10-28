@@ -1,8 +1,8 @@
 import json
-from adoptable_dog import AdoptableDog
+from src.adoptable_dog import AdoptableDog
 
 class NotifiedDatabase:
-    PATH = "database/notified.json"
+    PATH = "src/database/notified.json"
 
     @staticmethod
     def load_previously_notified_dogs():

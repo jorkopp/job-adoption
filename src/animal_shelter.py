@@ -1,5 +1,5 @@
 from abc import abstractmethod
-from adoptable_dog import AdoptableDog
+from src.adoptable_dog import AdoptableDog
 import re
 
 class AnimalShelter:
