@@ -16,7 +16,6 @@ class Scraper:
     @staticmethod
     def scrape_dogs(animal_shelter):
         r = Scraper._http_get(animal_shelter.url())
-        print(f"HTTP GET response: {r}")
 
         if not r:
             return []
