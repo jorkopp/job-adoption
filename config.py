@@ -8,6 +8,6 @@ class Config:
         "doodle",
         "bichon",
     ]
-    MAX_WEIGHT = 200.0
+    MAX_WEIGHT = 20.0
     MAX_AGE = 2.0
 

@@ -10,7 +10,7 @@ An automated Python application that scrapes local animal shelters for adoptable
 - **Smart Filtering**: Only alerts you about dogs that match your preferences:
   - Female dogs only
   - Specific breeds (Maltese, Havanese, Terrier, Poodle, Doodle, Bichon)
-  - Under 200 pounds
+  - Under 20 pounds
   - Under 2 years old
 - **Duplicate Prevention**: Tracks previously notified dogs to avoid spam
 - **SMS Notifications**: Sends text messages with dog details and photos via Twilio
