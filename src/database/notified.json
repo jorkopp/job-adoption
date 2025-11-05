@@ -1,12 +1,32 @@
 [
   {
-    "shelter": "Rancho Coastal Humane Society",
-    "name": "Phish Food",
-    "breed": "Maltese Mix",
-    "sex": "Female",
-    "age": "1 year",
-    "weight": "19",
-    "image": "https://rchumanesociety.org/wp-content/uploads/2025/10/HS_PhishFood_01.jpg",
-    "url": "https://rchumanesociety.org/dogs-for-adoption/"
+    "shelter": "Helen Woodward Animal Center",
+    "name": "Fleece",
+    "breed": "Terrier  blend",
+    "sex": "female",
+    "age": "17 Weeks",
+    "weight": "18.00",
+    "image": "https://p.sharinpix.com/3/7e52918/YXBwLnNoYXJpbnBpeC5jb20vaW1hZ2VfZXh0ZXJuYWxfdXJscy9hZGMyOGEyNC0yODRkLTQ3YTctOTdmYS1hNTFmNjg4MGZiYjc/adc28a24-284d-47a7-97fa-a51f6880fbb7.jpg",
+    "url": "https://animalcenter.org/pet-adoption/adoptable-dogs/"
+  },
+  {
+    "shelter": "Helen Woodward Animal Center",
+    "name": "Marshmallow",
+    "breed": "Terrier  blend",
+    "sex": "female",
+    "age": "13 Weeks",
+    "weight": "11.00",
+    "image": "https://p.sharinpix.com/3/2a1ac29/YXBwLnNoYXJpbnBpeC5jb20vaW1hZ2VfZXh0ZXJuYWxfdXJscy9mMDFmNmFlYS1jMjQ0LTQ4Y2UtYTVlYy1jMmYxNWU5ZDk4MjM/f01f6aea-c244-48ce-a5ec-c2f15e9d9823.jpg",
+    "url": "https://animalcenter.org/pet-adoption/adoptable-dogs/"
+  },
+  {
+    "shelter": "Helen Woodward Animal Center",
+    "name": "Kyra",
+    "breed": "Terrier  blend",
+    "sex": "female",
+    "age": "5 Months",
+    "weight": "18.00",
+    "image": "https://p.sharinpix.com/3/d01b9ba/YXBwLnNoYXJpbnBpeC5jb20vaW1hZ2VfZXh0ZXJuYWxfdXJscy9lYTUyZDE0My1lNmRlLTRjYTktOTk4Yy00YTk3OTg1NTg2NDU/ea52d143-e6de-4ca9-998c-4a9798558645.jpg",
+    "url": "https://animalcenter.org/pet-adoption/adoptable-dogs/"
   }
 ]

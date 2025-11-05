@@ -10,7 +10,7 @@ class AdoptableDog:
         self.url = url
 
     def description(self):
-        return f"{self.name}, {self.sex}, {self.age}, {self.breed}, {self.weight} pounds."
+        return f"{self.name}: {self.sex}, {self.age}, {self.breed}, {self.weight} lbs at {self.shelter}."
     
     def __eq__(self, other):
         if not isinstance(other, AdoptableDog):

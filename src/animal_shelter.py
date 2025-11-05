@@ -193,8 +193,8 @@ class HelenWoodwardAnimalCenter(AnimalShelter):
                         
                         if 'sex' in heading:
                             sex = text.lower()
-                            sex = sex.replace(" - Spayed", "").strip()
-                            sex = sex.replace(" - Neutered", "").strip()
+                            sex = sex.replace(" - spayed", "").strip()
+                            sex = sex.replace(" - neutered", "").strip()
                         elif 'age' in heading:
                             age = text
                         elif 'weight' in heading:
