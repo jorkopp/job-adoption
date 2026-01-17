@@ -1,4 +1,4 @@
-# Dog Adoption Alert System 🐕
+# job Alert System 🔨
 
 An automated Python application that scrapes local animal shelters for adoptable dogs matching your specific criteria and sends SMS notifications via Twilio when new matches are found.
 
