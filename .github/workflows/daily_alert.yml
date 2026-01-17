@@ -30,3 +30,15 @@ jobs:
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
         run: |
           python -m main
+
+      - name: Commit notified jobs database
+        run: |
+          if git status --porcelain | grep notified.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add src/database/notified.json
+            git commit -m "Update notified jobs database"
+            git push
+          else
+            echo "No database changes to commit"
+          fi
