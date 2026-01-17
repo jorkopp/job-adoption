@@ -1,49 +1,41 @@
 import json
-from src.adoptable_dog import AdoptableDog
+from src.job import Job
 
 class NotifiedDatabase:
     PATH = "src/database/notified.json"
 
     @staticmethod
-    def load_previously_notified_dogs():
+    def load_previously_notified_jobs():
         try:
             with open(NotifiedDatabase.PATH, "r") as f:
                 data = json.load(f)
-                dogs = set()
-                for dog_data in data:
-                    # Reconstruct AdoptableDog objects from JSON
-                    dog = AdoptableDog(
-                        shelter=dog_data['shelter'],
-                        name=dog_data['name'],
-                        breed=dog_data['breed'],
-                        sex=dog_data['sex'],
-                        age=dog_data['age'],
-                        weight=dog_data['weight'],
-                        image=dog_data['image'],
-                        url=dog_data['url']
+                jobs = set()
+                for job_data in data:
+                    # Reconstruct Job objects from JSON
+                    job = Job(
+                        company=job_data['company'],
+                        title=job_data['title'],
+                        req_id=job_data['req_id'],
+                        url=job_data['url']
                     )
-                    dogs.add(dog)
-                return dogs
+                    jobs.add(job)
+                return jobs
         except Exception:
             return set([])
 
     @staticmethod
-    def register_dogs_as_notified(adoptable_dogs):
-        data = NotifiedDatabase.load_previously_notified_dogs()
-        for adoptable_dog in adoptable_dogs:
-            data.add(adoptable_dog)
+    def register_jobs_as_notified(jobs):
+        data = NotifiedDatabase.load_previously_notified_jobs()
+        for job in jobs:
+            data.add(job)
         with open(NotifiedDatabase.PATH, "w") as f:
-            # Convert AdoptableDog objects to dictionaries for JSON serialization
-            dogs_list = []
-            for dog in data:
-                dogs_list.append({
-                    'shelter': dog.shelter,
-                    'name': dog.name,
-                    'breed': dog.breed,
-                    'sex': dog.sex,
-                    'age': dog.age,
-                    'weight': dog.weight,
-                    'image': dog.image,
-                    'url': dog.url
+            # Convert Job objects to dictionaries for JSON serialization
+            jobs_list = []
+            for job in data:
+                jobs_list.append({
+                    'company': job.company,
+                    'title': job.title,
+                    'req_id': job.req_id,
+                    'url': job.url
                 })
-            json.dump(dogs_list, f, indent=2)
+            json.dump(jobs_list, f, indent=2)

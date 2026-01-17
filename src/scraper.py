@@ -1,48 +1,37 @@
 """
-Scrapes two animal shelters (HWAC and RCHS), filters for allowed breeds and female dogs.
-Sends SMS via Twilio for each new match, and updates notified.json so that we don't send duplicate notifications.
-Designed to run in GitHub Actions as a scheduled job (e.g., every day at 11:00 AM).
+Scrapes job postings from company career pages and notifies users of new listings.
 """
 import re
 import requests
 from bs4 import BeautifulSoup
 
 from src.config import Config
-from src.animal_shelter import AnimalShelter
+from src.company import Company
 
 class Scraper:
-    USER_AGENT = "Mozilla/5.0 (compatible; DogAlertBot/1.0; +https://github.com/sfierro/dog-adoption)"
+    USER_AGENT = "Mozilla/5.0 (compatible; JobAlertBot/1.0; +https://github.com/jorkopp/jo-adoption)"
     
     @staticmethod
-    def scrape_dogs(animal_shelter):
-        r = Scraper._http_get(animal_shelter.url())
+    def scrape_jobs(company):
+        r = Scraper._http_get(company.url())  
 
         if not r:
             return []
 
-        soup = BeautifulSoup(r.text, "html.parser")
-        return animal_shelter.scrape_dogs(soup)
+        return company.scrape_jobs()
 
     @staticmethod
-    def filter_adoptable_dogs(dogs):
-        adoptable_dogs = []
-        for dog in dogs:
-            if dog.sex.lower() != Config.SEX:
+    def filter_applicable_jobs(jobs):
+        applicable_jobs = []
+        for job in jobs:
+            job_applicable = True
+            for keyword in Config.BLOCKLIST:
+                if keyword in job.title.lower():
+                    job_applicable = False
+            if not job_applicable:
                 continue
-            if float(dog.weight) > Config.MAX_WEIGHT:
-                continue
-            # Convert age to float for comparison, but keep original text in dog.age
-            age_in_years = float(AnimalShelter._parse_age(dog.age))
-            if age_in_years > Config.MAX_AGE:
-                continue
-            breed_allowed = False
-            for breed in Config.ALLOWED_BREEDS:
-                if breed in dog.breed.lower():
-                    breed_allowed = True
-            if not breed_allowed:
-                continue
-            adoptable_dogs.append(dog)
-        return adoptable_dogs
+            applicable_jobs.append(job)
+        return applicable_jobs
 
     # --- Utilities ---
 
