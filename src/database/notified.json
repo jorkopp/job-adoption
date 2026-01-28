@@ -1,63 +1,15 @@
 [
   {
     "company": "Viasat",
-    "title": "Embedded Software Engineer - Rust, Viasat Government",
-    "req_id": "5527",
-    "url": "https://careers.viasat.com/jobs/5527?lang=en-us"
-  },
-  {
-    "company": "Viasat",
     "title": "Embedded Software Engineer - Viasat Government",
     "req_id": "5521",
     "url": "https://careers.viasat.com/jobs/5521?lang=en-us"
   },
   {
     "company": "Viasat",
-    "title": "Embedded Software Engineer \u2013 Viasat Government",
-    "req_id": "5237",
-    "url": "https://careers.viasat.com/jobs/5237?lang=en-us"
-  },
-  {
-    "company": "Viasat",
-    "title": "Full Stack Software Engineer- Viasat Government",
-    "req_id": "4190",
-    "url": "https://careers.viasat.com/jobs/4190?lang=en-us"
-  },
-  {
-    "company": "Viasat",
-    "title": "Embedded Software Engineer",
-    "req_id": "5524",
-    "url": "https://careers.viasat.com/jobs/5524?lang=en-us"
-  },
-  {
-    "company": "Viasat",
-    "title": "Embedded Software Engineer - Viasat Government",
-    "req_id": "5522",
-    "url": "https://careers.viasat.com/jobs/5522?lang=en-us"
-  },
-  {
-    "company": "Viasat",
-    "title": "Embedded Software Engineer - Viasat Government",
-    "req_id": "5526",
-    "url": "https://careers.viasat.com/jobs/5526?lang=en-us"
-  },
-  {
-    "company": "Viasat",
-    "title": "Software Test Automation Engineer - LabVIEW/TestStand  (Active security clearance required)",
-    "req_id": "5214",
-    "url": "https://careers.viasat.com/jobs/5214?lang=en-us"
-  },
-  {
-    "company": "Viasat",
-    "title": "Full-Stack Software Engineer",
-    "req_id": "5539",
-    "url": "https://careers.viasat.com/jobs/5539?lang=en-us"
-  },
-  {
-    "company": "Viasat",
-    "title": "Embedded Linux Software Engineer",
-    "req_id": "5236",
-    "url": "https://careers.viasat.com/jobs/5236?lang=en-us"
+    "title": "Embedded Software Engineer - Rust, Viasat Government",
+    "req_id": "5527",
+    "url": "https://careers.viasat.com/jobs/5527?lang=en-us"
   },
   {
     "company": "Viasat",
@@ -67,9 +19,9 @@
   },
   {
     "company": "Viasat",
-    "title": "System and Software Test Lead",
-    "req_id": "5074",
-    "url": "https://careers.viasat.com/jobs/5074?lang=en-us"
+    "title": "Embedded Software Engineer - Viasat Government",
+    "req_id": "5522",
+    "url": "https://careers.viasat.com/jobs/5522?lang=en-us"
   },
   {
     "company": "Viasat",
@@ -79,21 +31,33 @@
   },
   {
     "company": "Viasat",
-    "title": "Software Engineer - Cloud Platform",
-    "req_id": "4332",
-    "url": "https://careers.viasat.com/jobs/4332?lang=en-us"
-  },
-  {
-    "company": "Viasat",
     "title": "Embedded Software Engineer",
     "req_id": "5543",
     "url": "https://careers.viasat.com/jobs/5543?lang=en-us"
   },
   {
     "company": "Viasat",
-    "title": "Embedded Software Engineer - Viasat Government",
-    "req_id": "5553",
-    "url": "https://careers.viasat.com/jobs/5553?lang=en-us"
+    "title": "Software Engineer, Early Career - Government Services and Solutions",
+    "req_id": "5362",
+    "url": "https://careers.viasat.com/jobs/5362?lang=en-us"
+  },
+  {
+    "company": "Viasat",
+    "title": "Software Engineer - Embedded/Cloud",
+    "req_id": "5611",
+    "url": "https://careers.viasat.com/jobs/5611?lang=en-us"
+  },
+  {
+    "company": "Viasat",
+    "title": "Full Stack Software Engineer- Viasat Government",
+    "req_id": "4190",
+    "url": "https://careers.viasat.com/jobs/4190?lang=en-us"
+  },
+  {
+    "company": "Viasat",
+    "title": "Embedded Linux Software Engineer",
+    "req_id": "5236",
+    "url": "https://careers.viasat.com/jobs/5236?lang=en-us"
   },
   {
     "company": "Viasat",
@@ -103,14 +67,56 @@
   },
   {
     "company": "Viasat",
-    "title": "Software Architect",
-    "req_id": "4951",
-    "url": "https://careers.viasat.com/jobs/4951?lang=en-us"
+    "title": "Embedded Software Engineer \u2013 Viasat Government",
+    "req_id": "5237",
+    "url": "https://careers.viasat.com/jobs/5237?lang=en-us"
   },
   {
     "company": "Viasat",
-    "title": "Software Engineer - Embedded/Cloud",
-    "req_id": "5611",
-    "url": "https://careers.viasat.com/jobs/5611?lang=en-us"
+    "title": "Embedded Software Engineer - Viasat Government",
+    "req_id": "5526",
+    "url": "https://careers.viasat.com/jobs/5526?lang=en-us"
+  },
+  {
+    "company": "Viasat",
+    "title": "Embedded Software Engineer - Viasat Government",
+    "req_id": "5553",
+    "url": "https://careers.viasat.com/jobs/5553?lang=en-us"
+  },
+  {
+    "company": "Viasat",
+    "title": "System and Software Test Lead",
+    "req_id": "5074",
+    "url": "https://careers.viasat.com/jobs/5074?lang=en-us"
+  },
+  {
+    "company": "Viasat",
+    "title": "Embedded Software Engineer",
+    "req_id": "5524",
+    "url": "https://careers.viasat.com/jobs/5524?lang=en-us"
+  },
+  {
+    "company": "Viasat",
+    "title": "Software Test Automation Engineer - LabVIEW/TestStand  (Active security clearance required)",
+    "req_id": "5214",
+    "url": "https://careers.viasat.com/jobs/5214?lang=en-us"
+  },
+  {
+    "company": "Viasat",
+    "title": "Software Engineer - Cloud Platform",
+    "req_id": "4332",
+    "url": "https://careers.viasat.com/jobs/4332?lang=en-us"
+  },
+  {
+    "company": "Viasat",
+    "title": "Full-Stack Software Engineer",
+    "req_id": "5539",
+    "url": "https://careers.viasat.com/jobs/5539?lang=en-us"
+  },
+  {
+    "company": "Viasat",
+    "title": "Software Architect",
+    "req_id": "4951",
+    "url": "https://careers.viasat.com/jobs/4951?lang=en-us"
   }
 ]
